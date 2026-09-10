@@ -1,0 +1,382 @@
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3456
+- Network:       http://172.30.189.102:3456
+✓ Ready in 653ms
+✓ Running next.config.ts took 46ms
+
+○ Compiling / ...
+ GET / 200 in 5.7s (next.js: 5.3s, application-code: 403ms)
+ GET /profile.jpg 404 in 570ms (next.js: 488ms, application-code: 83ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 114ms (next.js: 8ms, application-code: 106ms)
+ GET /profile.jpg 404 in 48ms (next.js: 9ms, application-code: 39ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 41ms (next.js: 6ms, application-code: 36ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 99ms (next.js: 4ms, application-code: 96ms)
+ GET /profile.jpg 404 in 41ms (next.js: 6ms, application-code: 35ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 47ms (next.js: 5ms, application-code: 42ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 102ms (next.js: 4ms, application-code: 98ms)
+ GET /profile.jpg 404 in 45ms (next.js: 6ms, application-code: 39ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 49ms (next.js: 5ms, application-code: 45ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 92ms (next.js: 3ms, application-code: 89ms)
+ GET /profile.jpg 404 in 39ms (next.js: 9ms, application-code: 31ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 42ms (next.js: 5ms, application-code: 37ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 81ms (next.js: 3ms, application-code: 78ms)
+ GET /profile.jpg 404 in 44ms (next.js: 10ms, application-code: 33ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 57ms (next.js: 7ms, application-code: 49ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 85ms (next.js: 4ms, application-code: 81ms)
+ GET /profile.jpg 404 in 35ms (next.js: 7ms, application-code: 28ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 37ms (next.js: 4ms, application-code: 33ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 143ms (next.js: 5ms, application-code: 138ms)
+ GET /profile.jpg 404 in 83ms (next.js: 17ms, application-code: 66ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 68ms (next.js: 5ms, application-code: 63ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 92ms (next.js: 2ms, application-code: 90ms)
+ GET /profile.jpg 404 in 48ms (next.js: 11ms, application-code: 37ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 44ms (next.js: 8ms, application-code: 36ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 94ms (next.js: 3ms, application-code: 91ms)
+ GET /profile.jpg 404 in 47ms (next.js: 8ms, application-code: 39ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 45ms (next.js: 6ms, application-code: 40ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 87ms (next.js: 2ms, application-code: 85ms)
+ GET /profile.jpg 404 in 48ms (next.js: 8ms, application-code: 40ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 42ms (next.js: 5ms, application-code: 37ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 86ms (next.js: 2ms, application-code: 84ms)
+ GET /profile.jpg 404 in 45ms (next.js: 9ms, application-code: 37ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 44ms (next.js: 6ms, application-code: 38ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 117ms (next.js: 4ms, application-code: 113ms)
+ GET /profile.jpg 404 in 43ms (next.js: 6ms, application-code: 37ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET /profile.jpg 404 in 52ms (next.js: 6ms, application-code: 46ms)
+⨯ The requested resource isn't a valid image for /profile.jpg received null
+ GET / 200 in 93ms (next.js: 3ms, application-code: 90ms)
+ GET /robots.txt 200 in 258ms (next.js: 236ms, application-code: 22ms)
+ GET /sitemap.xml 200 in 92ms (next.js: 87ms, application-code: 5ms)
+ GET / 200 in 91ms (next.js: 2.0ms, application-code: 89ms)
+ GET / 200 in 94ms (next.js: 4ms, application-code: 90ms)
+ GET / 200 in 101ms (next.js: 2ms, application-code: 99ms)
+ GET / 200 in 90ms (next.js: 2ms, application-code: 88ms)
+ GET / 200 in 93ms (next.js: 1.9ms, application-code: 91ms)
+ GET / 200 in 85ms (next.js: 2ms, application-code: 83ms)
+ GET / 200 in 83ms (next.js: 3ms, application-code: 79ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled (components/Hero.tsx:27:34)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <Home>
+                    <ThemeProvider>
+                      <a>
+                      <ScrollProgress>
+                      <Navbar>
+                      <main id="main" tabIndex={-1} className="outline-none">
+                        <Hero>
+                          <section id="home" className="relative o...">
+                            <div>
+                            <div className="relative m...">
+                              ...
+                                <div className="relative" style={{}} ref={function useMotionRef.useCallback}>
+                                  <motion.p variants={{hidden:{...}, ...}} className="mb-6 font-...">
+                                    <p
+                                      className="mb-6 font-mono text-sm text-muted"
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(18px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                  <motion.h1 variants={{hidden:{...}, ...}} className="text-balan...">
+                                    <h1
+                                      className="text-balance text-[clamp(2.4rem,6.2vw,4.4rem)] font-semibold leading-..."
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(18px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                  <motion.p variants={{hidden:{...}, ...}} className="mt-5 font-...">
+                                    <p
+                                      className="mt-5 font-mono text-sm text-muted"
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(18px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                  <motion.p variants={{hidden:{...}, ...}} className="mt-6 max-w...">
+                                    <p
+                                      className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted md:tex..."
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(18px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
++                                     MCA student with a BCA background, focused on learning, building practical web ap...
+                                  <motion.div variants={{hidden:{...}, ...}} className="mt-9 flex ...">
+                                    <div
+                                      className="mt-9 flex flex-wrap items-center gap-3"
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(18px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                  <motion.div variants={{hidden:{...}, ...}} className="mt-10 flex...">
+                                    <div
+                                      className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-[13p..."
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(18px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                              <motion.div initial={false} animate={false} transition={{duration:0.8, ...}} ...>
+                                <div
+                                  className="relative mx-auto w-full max-w-[380px] md:max-w-none"
+                                  style={{
+-                                   opacity: "0"
+-                                   transform: "translateY(24px) scale(0.97)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                                  <div>
+                                  <div>
+                                  <div>
+                                  <motion.div initial={false} animate={false} transition={{duration:0.6, ...}} ...>
+                                    <div
+                                      className="absolute -right-2 top-8 hidden rounded-lg border border-border bg-sur..."
+                                      style={{
+-                                       opacity: "0"
+-                                       transform: "translateX(16px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                  <motion.div initial={false} animate={false} transition={{duration:0.6, ...}} ...>
+                                    <div
+                                      className="absolute -left-2 bottom-20 hidden rounded-lg border border-border bg-..."
+                                      style={{
+-                                       opacity: "0"
+-                                       transform: "translateX(-16px)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                            <motion.a href="#about" initial={false} animate={false} transition={{delay:1.1, ...}} ...>
+                              <a
+                                href="#about"
+                                className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center ga..."
+                                aria-label="Scroll to About section"
++                               style={{}}
+-                               style={{opacity:"0"}}
+                                ref={function useMotionRef.useCallback}
+                              >
+                        <About>
+                          <section id="about" className="relative p...">
+                            <div className="mx-auto gr...">
+                              <div className="md:col-span-4">
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                              <div className="md:col-span-8">
+                                <Reveal delay={0.08}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                        <EducationTimeline>
+                          <section id="education" className="relative b...">
+                            <div className="mx-auto ma...">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                              ...
+                        <Skills>
+                          <section id="skills" className="relative b...">
+                            <div className="mx-auto gr...">
+                              <div className="md:col-span-4">
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                              <div className="md:col-span-8">
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                        <Certifications>
+                          <section id="certificat..." className="relative b...">
+                            <div className="mx-auto gr...">
+                              <div className="md:col-span-4">
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                              <div className="md:col-span-8">
+                                <Reveal delay={0.08}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                        <Projects>
+                          <section id="projects" className="relative b...">
+                            <div className="mx-auto ma...">
+                              <div className="flex flex-...">
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                                <Reveal delay={0.1}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                              <div className="mt-20 spac...">
+                                <Reveal y={28}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                                <Reveal y={28}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                                <Reveal y={28}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                            ...
+                        <ResumeSection>
+                          <section id="resume" className="relative b...">
+                            <div className="mx-auto gr...">
+                              <div className="md:col-span-5">
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                              <div className="md:col-span-7">
+                                <Reveal delay={0.08}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                        <Contact>
+                          <section id="contact" className="relative b...">
+                            <div className="mx-auto gr...">
+                              <div className="md:col-span-6">
+                                <Reveal>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                              <div className="md:col-span-6">
+                                <Reveal delay={0.1}>
+                                  <div
+                                    className={undefined}
+-                                   style={{opacity:"0",transform:"translateY..."}}
+                                  >
+                      ...
+                ...
+              ...
+ 
+ GET / 200 in 80ms (next.js: 3ms, application-code: 77ms)
+ GET / 200 in 183ms (next.js: 5ms, application-code: 178ms)
+ GET / 200 in 186ms (next.js: 14ms, application-code: 172ms)
+ GET / 200 in 115ms (next.js: 8ms, application-code: 107ms)
+ GET / 200 in 186ms (next.js: 7ms, application-code: 179ms)
+✓ Compiled in 78ms
+✓ Compiled in 98ms
+ GET / 200 in 158ms (next.js: 4ms, application-code: 154ms)
+✓ Compiled in 70ms
+ GET / 200 in 89ms (next.js: 16ms, application-code: 72ms)
+ GET / 200 in 81ms (next.js: 15ms, application-code: 66ms)
+✓ Compiled in 42ms
+ GET / 200 in 77ms (next.js: 11ms, application-code: 66ms)
+✓ Compiled in 36ms
+ GET / 200 in 74ms (next.js: 11ms, application-code: 63ms)
+✓ Compiled in 42ms
+ GET / 200 in 72ms (next.js: 11ms, application-code: 61ms)
+✓ Compiled in 63ms
+ GET / 200 in 84ms (next.js: 7ms, application-code: 77ms)
+ GET / 200 in 76ms (next.js: 15ms, application-code: 61ms)
+ GET / 200 in 83ms (next.js: 15ms, application-code: 67ms)
+ GET / 200 in 83ms (next.js: 14ms, application-code: 70ms)
+ GET / 200 in 109ms (next.js: 3ms, application-code: 106ms)
+ GET / 200 in 188ms (next.js: 4ms, application-code: 184ms)
+ GET / 200 in 183ms (next.js: 7ms, application-code: 177ms)
+ GET / 200 in 180ms (next.js: 8ms, application-code: 172ms)
+ GET / 200 in 183ms (next.js: 6ms, application-code: 178ms)
+ GET / 200 in 180ms (next.js: 7ms, application-code: 173ms)
+ GET / 200 in 169ms (next.js: 3ms, application-code: 165ms)
+ GET / 200 in 206ms (next.js: 6ms, application-code: 200ms)
+ GET / 200 in 278ms (next.js: 6ms, application-code: 272ms)
+ GET / 200 in 185ms (next.js: 8ms, application-code: 177ms)
+ GET / 200 in 179ms (next.js: 6ms, application-code: 173ms)

@@ -1,0 +1,1867 @@
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.30.189.102:3000
+✓ Ready in 654ms
+✓ Running next.config.ts took 76ms
+
+ GET / 200 in 772ms (next.js: 309ms, application-code: 463ms)
+ GET / 200 in 250ms (next.js: 6ms, application-code: 243ms)
+ GET / 200 in 97ms (next.js: 17ms, application-code: 80ms)
+ GET / 200 in 177ms (next.js: 10ms, application-code: 167ms)
+ GET / 200 in 205ms (next.js: 10ms, application-code: 195ms)
+ GET / 200 in 95ms (next.js: 13ms, application-code: 83ms)
+ GET / 200 in 51ms (next.js: 4ms, application-code: 47ms)
+✓ Compiled in 45ms
+ GET / 200 in 137ms (next.js: 9ms, application-code: 128ms)
+ GET / 200 in 82ms (next.js: 8ms, application-code: 75ms)
+[browser] ./components/EducationTimeline.tsx:98:16
+Error: Unterminated regexp literal
+   96 |                   </div>
+   97 |                 </motion.li>
+>  98 |               </Reveal>
+      |                ^^^^^^^^
+   99 |             ))}
+  100 |           </ol>
+  101 |         </div>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/EducationTimeline.tsx
+    ./app/page.tsx 
+ GET / 200 in 268ms (next.js: 5ms, application-code: 263ms)
+ GET /REPLACE_WITH_LIVE_DEMO_URL 404 in 209ms (next.js: 133ms, application-code: 76ms)
+ GET / 200 in 202ms (next.js: 8ms, application-code: 194ms)
+ GET / 200 in 305ms (next.js: 29ms, application-code: 276ms)
+ GET / 200 in 186ms (next.js: 4ms, application-code: 182ms)
+✓ Compiled in 196ms
+ GET / 200 in 166ms (next.js: 14ms, application-code: 153ms)
+ GET / 200 in 92ms (next.js: 7ms, application-code: 85ms)
+✓ Compiled in 56ms
+ GET / 200 in 174ms (next.js: 16ms, application-code: 158ms)
+ GET / 200 in 75ms (next.js: 7ms, application-code: 69ms)
+✓ Compiled in 31ms
+ GET / 200 in 78ms (next.js: 7ms, application-code: 71ms)
+ GET / 200 in 37ms (next.js: 3ms, application-code: 34ms)
+ GET / 200 in 151ms (next.js: 4ms, application-code: 147ms)
+ GET / 200 in 97ms (next.js: 2ms, application-code: 95ms)
+ GET / 200 in 114ms (next.js: 4ms, application-code: 110ms)
+ GET / 200 in 175ms (next.js: 4ms, application-code: 171ms)
+✓ Compiled in 119ms
+ GET / 200 in 51ms (next.js: 10ms, application-code: 41ms)
+ GET / 200 in 145ms (next.js: 8ms, application-code: 137ms)
+ GET / 200 in 99ms (next.js: 4ms, application-code: 96ms)
+ GET / 200 in 98ms (next.js: 3ms, application-code: 95ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled (components/Navbar.tsx:10:34)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <Home>
+                  <ThemeProvider>
+                    <a>
+                    <ScrollProgress>
+                    <Navbar>
+                    <main id="main" tabIndex={-1} className="outline-none">
+                      <Hero>
+                        <section id="home" className="relative o...">
+                          <div>
+                          <div className="relative m...">
+                            ...
+                              <div className="relative" style={{}} ref={function useMotionRef.useCallback}>
+                                <motion.p variants={{hidden:{...}, ...}} className="mb-6 font-...">
+                                  <p
+                                    className="mb-6 font-mono text-sm text-muted"
+                                    style={{
++                                     opacity: 1
+-                                     opacity: "0"
++                                     transform: "none"
+-                                     transform: "translateY(18px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.h1 variants={{hidden:{...}, ...}} className="text-balan...">
+                                  <h1
+                                    className="text-balance text-[clamp(2.4rem,6.2vw,4.4rem)] font-semibold leading-[1..."
+                                    style={{
++                                     opacity: 1
+-                                     opacity: "0"
++                                     transform: "none"
+-                                     transform: "translateY(18px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.p variants={{hidden:{...}, ...}} className="mt-5 font-...">
+                                  <p
+                                    className="mt-5 font-mono text-sm text-muted"
+                                    style={{
++                                     opacity: 1
+-                                     opacity: "0"
++                                     transform: "none"
+-                                     transform: "translateY(18px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.p variants={{hidden:{...}, ...}} className="mt-6 max-w...">
+                                  <p
+                                    className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted md:text-..."
+                                    style={{
++                                     opacity: 1
+-                                     opacity: "0"
++                                     transform: "none"
+-                                     transform: "translateY(18px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
++                                   MCA student with a BCA background, focused on learning, building practical web appl...
+                                <motion.div variants={{hidden:{...}, ...}} className="mt-9 flex ...">
+                                  <div
+                                    className="mt-9 flex flex-wrap items-center gap-3"
+                                    style={{
++                                     opacity: 1
+-                                     opacity: "0"
++                                     transform: "none"
+-                                     transform: "translateY(18px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.div variants={{hidden:{...}, ...}} className="mt-10 flex...">
+                                  <div
+                                    className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-[13px]..."
+                                    style={{
++                                     opacity: 1
+-                                     opacity: "0"
++                                     transform: "none"
+-                                     transform: "translateY(18px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                            <motion.div initial={false} animate={false} transition={{duration:0.8, ...}} ...>
+                              <div
+                                className="relative mx-auto w-full max-w-[380px] md:max-w-none"
+                                style={{
+-                                 opacity: "0"
+-                                 transform: "translateY(24px) scale(0.97)"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                                <div>
+                                <div>
+                                <div>
+                                <motion.div initial={false} animate={false} transition={{duration:0.6, ...}} ...>
+                                  <div
+                                    className="absolute -right-2 top-8 hidden rounded-lg border border-border bg-surfa..."
+                                    style={{
+-                                     opacity: "0"
+-                                     transform: "translateX(16px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.div initial={false} animate={false} transition={{duration:0.6, ...}} ...>
+                                  <div
+                                    className="absolute -left-2 bottom-20 hidden rounded-lg border border-border bg-su..."
+                                    style={{
+-                                     opacity: "0"
+-                                     transform: "translateX(-16px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                          <motion.a href="#about" initial={false} animate={false} transition={{delay:1.1, ...}} ...>
+                            <a
+                              href="#about"
+                              className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-..."
+                              aria-label="Scroll to About section"
++                             style={{}}
+-                             style={{opacity:"0"}}
+                              ref={function useMotionRef.useCallback}
+                            >
+                      <About>
+                        <section id="about" className="relative p...">
+                          <div className="mx-auto gr...">
+                            <div className="md:col-span-4">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                            <div className="md:col-span-8">
+                              <Reveal delay={0.08}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                      <EducationTimeline>
+                        <section id="education" className="relative b...">
+                          <div className="mx-auto ma...">
+                            <Reveal>
+                              <div
+                                className={undefined}
+-                               style={{opacity:"0",transform:"translateY..."}}
+                              >
+                            <div className="relative m...">
+                              <motion.div aria-hidden={true} initial={false} whileInView={{scaleY:1}} ...>
+                                <div
+                                  aria-hidden={true}
+                                  className="absolute bottom-6 left-[7px] top-6 w-px bg-border"
++                                 style={{transformOrigin:"top"}}
+-                                 style={{transform-origin:"center top",transform:"scaleY(0)"}}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <ol className="space-y-5">
+                                <motion.li initial={false} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                                  <li
+                                    className="relative pl-12 md:pl-14"
+                                    style={{
+-                                     opacity: "0"
+-                                     transform: "translateY(20px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.li initial={false} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                                  <li
+                                    className="relative pl-12 md:pl-14"
+                                    style={{
+-                                     opacity: "0"
+-                                     transform: "translateY(20px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.li initial={false} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                                  <li
+                                    className="relative pl-12 md:pl-14"
+                                    style={{
+-                                     opacity: "0"
+-                                     transform: "translateY(20px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                                <motion.li initial={false} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                                  <li
+                                    className="relative pl-12 md:pl-14"
+                                    style={{
+-                                     opacity: "0"
+-                                     transform: "translateY(20px)"
+                                    }}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                      <Skills>
+                        <section id="skills" className="relative b...">
+                          <div className="mx-auto gr...">
+                            <div className="md:col-span-4">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                            <div className="md:col-span-8">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                      <Certifications>
+                        <section id="certificat..." className="relative b...">
+                          <div className="mx-auto gr...">
+                            <div className="md:col-span-4">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                            <div className="md:col-span-8">
+                              <Reveal delay={0.08}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                      <Projects>
+                        <section id="projects" className="relative b...">
+                          <div className="mx-auto ma...">
+                            <div className="flex flex-...">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                              <Reveal delay={0.1}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                            <div className="mt-20 spac...">
+                              <Reveal y={28}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                              <Reveal y={28}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                              <Reveal y={28}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                          ...
+                      <ResumeSection>
+                        <section id="resume" className="relative b...">
+                          <div className="mx-auto gr...">
+                            <div className="md:col-span-5">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                            <div className="md:col-span-7">
+                              <Reveal delay={0.08}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                      <Contact>
+                        <section id="contact" className="relative b...">
+                          <div className="mx-auto gr...">
+                            <div className="md:col-span-6">
+                              <Reveal>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                            <div className="md:col-span-6">
+                              <Reveal delay={0.1}>
+                                <div
+                                  className={undefined}
+-                                 style={{opacity:"0",transform:"translateY..."}}
+                                >
+                    ...
+              ...
+            ...
+ 
+ GET / 200 in 186ms (next.js: 4ms, application-code: 181ms)
+ GET / 200 in 154ms (next.js: 5ms, application-code: 149ms)
+✓ Compiled in 70ms
+ GET / 200 in 101ms (next.js: 18ms, application-code: 84ms)
+✓ Compiled in 43ms
+ GET / 200 in 81ms (next.js: 12ms, application-code: 69ms)
+✓ Compiled in 139ms
+ GET / 200 in 81ms (next.js: 12ms, application-code: 69ms)
+✓ Compiled in 44ms
+ GET / 200 in 82ms (next.js: 12ms, application-code: 70ms)
+ GET / 200 in 226ms (next.js: 3ms, application-code: 223ms)
+ GET / 200 in 158ms (next.js: 3ms, application-code: 156ms)
+ GET / 200 in 210ms (next.js: 6ms, application-code: 204ms)
+ GET / 200 in 79ms (next.js: 16ms, application-code: 64ms)
+ GET / 200 in 72ms (next.js: 20ms, application-code: 52ms)
+ GET / 200 in 210ms (next.js: 5ms, application-code: 205ms)
+ GET / 200 in 108ms (next.js: 3ms, application-code: 105ms)
+ GET / 200 in 97ms (next.js: 4ms, application-code: 93ms)
+ GET / 200 in 163ms (next.js: 4ms, application-code: 159ms)
+ GET / 200 in 178ms (next.js: 5ms, application-code: 172ms)
+ GET / 200 in 162ms (next.js: 4ms, application-code: 158ms)
+ GET / 200 in 42ms (next.js: 7ms, application-code: 35ms)
+ GET / 200 in 99ms (next.js: 3ms, application-code: 95ms)
+ GET / 200 in 200ms (next.js: 7ms, application-code: 192ms)
+✓ Compiled in 73ms
+✓ Compiled in 65ms
+✓ Compiled in 73ms
+ GET / 200 in 148ms (next.js: 12ms, application-code: 137ms)
+ GET / 200 in 88ms (next.js: 6ms, application-code: 82ms)
+✓ Compiled in 53ms
+ GET / 200 in 88ms (next.js: 8ms, application-code: 80ms)
+ GET / 200 in 45ms (next.js: 3ms, application-code: 42ms)
+✓ Compiled in 49ms
+ GET / 200 in 81ms (next.js: 6ms, application-code: 75ms)
+ GET / 200 in 44ms (next.js: 4ms, application-code: 39ms)
+✓ Compiled in 29ms
+ GET / 200 in 80ms (next.js: 5ms, application-code: 75ms)
+ GET / 200 in 47ms (next.js: 3ms, application-code: 45ms)
+✓ Compiled in 33ms
+ GET / 200 in 82ms (next.js: 6ms, application-code: 76ms)
+ GET / 200 in 41ms (next.js: 4ms, application-code: 36ms)
+ GET / 200 in 78ms (next.js: 6ms, application-code: 72ms)
+ GET / 200 in 43ms (next.js: 4ms, application-code: 39ms)
+ GET / 200 in 75ms (next.js: 6ms, application-code: 68ms)
+ GET / 200 in 38ms (next.js: 3ms, application-code: 35ms)
+✓ Compiled in 52ms
+✓ Compiled in 33ms
+ GET / 200 in 89ms (next.js: 6ms, application-code: 83ms)
+ GET / 200 in 39ms (next.js: 3ms, application-code: 36ms)
+✓ Compiled in 33ms
+ GET / 200 in 76ms (next.js: 6ms, application-code: 70ms)
+ GET / 200 in 37ms (next.js: 3ms, application-code: 34ms)
+✓ Compiled in 32ms
+ GET / 200 in 108ms (next.js: 7ms, application-code: 101ms)
+ GET / 200 in 66ms (next.js: 4ms, application-code: 62ms)
+✓ Compiled in 52ms
+ GET / 200 in 101ms (next.js: 10ms, application-code: 91ms)
+ GET / 200 in 44ms (next.js: 4ms, application-code: 40ms)
+ GET / 200 in 129ms (next.js: 12ms, application-code: 117ms)
+ GET / 200 in 57ms (next.js: 5ms, application-code: 52ms)
+ GET / 200 in 214ms (next.js: 5ms, application-code: 209ms)
+✓ Compiled in 86ms
+ GET / 200 in 176ms (next.js: 13ms, application-code: 163ms)
+ GET / 200 in 92ms (next.js: 6ms, application-code: 86ms)
+ GET / 200 in 174ms (next.js: 6ms, application-code: 167ms)
+ GET / 200 in 158ms (next.js: 8ms, application-code: 150ms)
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true} className="space_grot...">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <a>
+                              <div>
+                              <ScrollProgress>
+                                <motion.div style={{scaleX:{...}}} className="gradient-b..." aria-hidden="true">
+                                  <div
++                                   className="gradient-bar fixed inset-x-0 top-0 z-[80] h-[2px] origin-left"
+-                                   className="fixed inset-x-0 top-0 z-[80] h-[2px] origin-left bg-accent"
+                                    aria-hidden="true"
+                                    style={{transform:"scaleX(0)"}}
+                                    ref={function useMotionRef.useCallback}
+                                  >
+                              ...
+                                <nav aria-label="Primary" className="container-...">
+                                  <a>
+                                  <div>
+                                  <div className="flex items...">
+                                    <div className="hidden ite...">
+                                      <a
+                                        href="https://github.com/sharathr17"
+                                        target="_blank"
+                                        rel="noreferrer noopener"
+                                        aria-label="GitHub profile"
++                                       className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-md ..."
+-                                       className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-md ..."
+                                      >
+                                      <a
+                                        href="https://www.linkedin.com/in/sharath-r-maravanthe"
+                                        target="_blank"
+                                        rel="noreferrer noopener"
+                                        aria-label="LinkedIn profile"
++                                       className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-md ..."
+-                                       className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-md ..."
+                                      >
+                                    ...
+                              ...
+                                <section id="home" ref={{current:null}} aria-label="Introduction" ...>
+                                  <motion.div>
+                                  <motion.div>
+                                  <motion.div aria-hidden="true" className="pointer-ev..." style={{...}} ...>
+                                    <div
+                                      aria-hidden="true"
+                                      className="pointer-events-none absolute -right-24 bottom-0 h-[420px] w-[420px] r..."
+                                      style={{
++                                       background: "radial-gradient(circle, var(--accent-2) 0%, transparent 62%)"
+-                                       background-image: ""
+-                                       background-position-x: ""
+-                                       background-position-y: ""
+-                                       background-size: ""
+-                                       background-repeat: ""
+-                                       background-attachment: ""
+-                                       background-origin: ""
+-                                       background-clip: ""
+-                                       background-color: ""
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                  <motion.div aria-hidden="true" className="pointer-ev..." style={{...}} ...>
++                                   <div
++                                     aria-hidden="true"
++                                     className="pointer-events-none absolute left-1/2 top-0 h-[300px] w-[640px] -tran..."
++                                     style={{background:"linear-gra...",opacity:0}}
++                                     ref={function useMotionRef.useCallback}
++                                   >
+-                                   <span
+-                                     aria-hidden="true"
+-                                     className="pointer-events-none absolute right-0 top-0 hidden select-none font-di..."
+-                                     style={{opacity:"0",transform:"none"}}
+-                                   >
+                                  ...
+                              ...
+                  ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at div (<anonymous>)
+    at useRender (file://D:/sha/.next/dev/static/chunks/node_modules_framer-motion_dist_es_12a3idq._.js:4109:191)
+    at MotionDOMComponent (file://D:/sha/.next/dev/static/chunks/node_modules_framer-motion_dist_es_12a3idq._.js:2758:215)
+    at Hero (file://D:/sha/.next/dev/static/chunks/_1m43e-4._.js:1401:215)
+    at HomePage (about://React/Server/D:%5Csharathr%5C.next%5Cdev%5Cserver%5Cchunks%5Cssr%5C%5Broot-of-the-server%5D__1524-jm._.js?11:52:264)
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+ GET / 200 in 649ms (next.js: 28ms, application-code: 621ms)
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+ GET / 200 in 525ms (next.js: 8ms, application-code: 517ms)
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en" data-theme="dark" className="sora_fbe13..." suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="flex min-h-dvh flex-col bg-bg font-sans text-fg antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+ GET / 200 in 493ms (next.js: 7ms, application-code: 486ms)
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+✓ Compiled in 484ms
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en" data-theme="dark" className="sora_fbe13..." suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="flex min-h-dvh flex-col bg-bg font-sans text-fg antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+Warning: next/font: warning:
+Failed to download JetBrains Mono from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_b623b980.module.css
+    [next]/internal/font/google/jetbrains_mono_b623b980.js
+    ./app/layout.tsx
+
+
+⚠ [next]/internal/font/google/sora_fbe13bf1.module.css
+Warning: next/font: warning:
+Failed to download Sora from Google Fonts. Using a fallback font instead.
+If you are offline or behind a proxy, self-host the font with next/font/local, or set HTTP_PROXY/HTTPS_PROXY so Next.js can reach fonts.googleapis.com.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/sora_fbe13bf1.module.css
+    [next]/internal/font/google/sora_fbe13bf1.js
+    ./app/layout.tsx
+
+
