@@ -1,0 +1,207 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  /* Dark theme is the default */
+  color-scheme: dark;
+
+  --background: #0b0d10;
+  --background-soft: #0f1317;
+  --surface: #14191f;
+  --surface-2: #1a2027;
+  --border: #212830;
+  --border-strong: #2d3540;
+  --foreground: #ece8df;
+  --muted: #a2abb5;
+  --faint: #6e7884;
+  --accent: #5b9cf0;
+  --accent-strong: #7fb3ff;
+  --accent-soft: rgba(91, 156, 240, 0.12);
+  --secondary: #86b3d8;
+  --ring: #5b9cf0;
+  --selection: rgba(91, 156, 240, 0.3);
+  --on-accent: #0d1117;
+  --danger: #e2725b;
+  --shadow-color: rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --background: #f6f3ec;
+  --background-soft: #efece3;
+  --surface: #ffffff;
+  --surface-2: #fbfaf7;
+  --border: #e4ded2;
+  --border-strong: #cfc7b9;
+  --foreground: #1d1f24;
+  --muted: #525b66;
+  --faint: #767f8a;
+  --accent: #2b6ec0;
+  --accent-strong: #1c5294;
+  --accent-soft: rgba(43, 110, 192, 0.1);
+  --secondary: #2f69a0;
+  --ring: #2b6ec0;
+  --selection: rgba(43, 110, 192, 0.22);
+  --on-accent: #ffffff;
+  --danger: #b34028;
+  --shadow-color: rgba(22, 42, 71, 0.16);
+}
+
+@theme inline {
+  --color-bg: var(--background);
+  --color-bg-soft: var(--background-soft);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-fg: var(--foreground);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-secondary: var(--secondary);
+  --color-ring: var(--ring);
+  --color-on-accent: var(--on-accent);
+  --color-danger: var(--danger);
+
+  --font-sans: var(--font-sora), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "SF Mono", "Cascadia Code",
+    "Segoe UI Mono", monospace;
+}
+
+/* ---------- base ---------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background-color: var(--selection);
+  color: var(--foreground);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Keep anchors and buttons tappable on touch devices */
+@media (pointer: coarse) {
+  nav a,
+  nav button,
+  .touch-target {
+    min-height: 44px;
+  }
+}
+
+/* ---------- theme utilities ---------- */
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Subtle engineering grid used behind the hero portrait and section anchors */
+.bg-grid {
+  background-image: linear-gradient(
+      to right,
+      color-mix(in oklab, var(--border) 55%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in oklab, var(--border) 55%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 44px 44px;
+}
+
+/* Soft radial wash for depth behind hero/section backdrops */
+.radial-wash {
+  background: radial-gradient(
+    ellipse 70% 55% at 50% 0%,
+    color-mix(in oklab, var(--accent) 8%, transparent),
+    transparent 70%
+  );
+}
+
+/* Animated underline for inline text links */
+.link-underline {
+  background-image: linear-gradient(
+    currentColor,
+    currentColor
+  );
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 260ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-underline:hover,
+.link-underline:focus-visible {
+  background-size: 100% 1px;
+}
+
+/* ---------- touch targets ---------- */
+
+/* Enlarge hit areas for small inline links on coarse pointers only */
+@media (pointer: coarse) {
+  .tap {
+    min-height: 44px;
+    min-width: 44px;
+    align-items: center;
+    display: inline-flex;
+  }
+
+  .tap-box {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* ---------- reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+}
